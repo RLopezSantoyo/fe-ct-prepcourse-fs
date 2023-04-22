@@ -24,7 +24,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.
    // Tu código:
-   return Math.floor(num)
+   return Math.round(num)
 }
 
 function redondearHaciaArriba(num) {
@@ -34,7 +34,7 @@ function redondearHaciaArriba(num) {
 }
 
 
-function numeroRandom() {
+function numeroRandom(num) {
    // Genera un número al azar entre 0 y 1 y retórnalo.
    // Tu código:
    return Math.random(num)
